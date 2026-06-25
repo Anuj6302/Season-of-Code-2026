@@ -1,39 +1,109 @@
-# Week 2: ML Basics 
+# Week 2: Machine Learning Basics & Pandas 📊
 
-##  Goals
-- [x] Learn the basics of Machine Learning (theory)
-- [x] Get hands-on with **Pandas** for data handling
+## Goals
 
-##  Resources Used
-- **ML Playlist** — covered up through **Bagging**
-- **Pandas Tutorial** — covered Series, DataFrames, indexing, filtering, and grouping
+- Understand basic concepts of Machine Learning
+- Learn important ML algorithms theoretically
+- Get hands-on experience with Pandas for data handling
 
-##  What I Covered
 
-### Machine Learning Theory
-- Recap: What is ML, and how it differs from traditional programming
-- **Supervised Learning**
-  - Linear Regression — predicting continuous values
-  - Logistic Regression — binary classification
-  - Decision Trees — rule-based splitting for classification/regression
-- **Ensemble Learning**
-  - Why combine multiple models (reducing variance/overfitting)
-  - **Bagging** (Bootstrap Aggregating) — training multiple models on random subsets of data and combining their outputs (e.g., Random Forest as a bagging-based algorithm)
+---
 
-Detailed notes: [`ml_notes.md`](./ml_notes.md)
+## Resources Used
 
-### Pandas
-- Creating Series and DataFrames
-- Reading data into a DataFrame
-- Indexing & selecting data (`loc`, `iloc`)
-- Filtering rows based on conditions
-- Adding/modifying columns
-- Grouping and aggregating data with `groupby`
+- Machine Learning playlist
+- Pandas documentation/tutorials
+- Practice examples for data manipulation
+
+
+---
+
+# What I Covered
+
+
+## Machine Learning Theory
+
+### Supervised Learning
+
+Learned how models learn patterns from labelled data.
+
+Covered:
+
+### Linear Regression
+
+- Used for predicting continuous values
+- Understanding relationship between input and output variables
+- Concept of fitting a best line to data
+
+
+### Logistic Regression
+
+- Used for classification problems
+- Understanding probability-based prediction
+- Binary classification examples
+
+
+### Decision Trees
+
+- Learned how decisions are made using feature-based splitting
+- Understanding nodes, branches and leaf predictions
+
+
+### Ensemble Learning
+
+Studied why combining multiple models can improve performance.
+
+Topics:
+
+- Bagging (Bootstrap Aggregation)
+- Reducing overfitting
+- Random Forest concept
+
+
+---
+
+# Pandas
+
+Practiced data handling using Pandas library.
+
+Topics covered:
+
+- Creating Series
+- Creating DataFrames
+- Reading and manipulating data
+- Indexing using loc and iloc
+- Filtering data
+- Adding and modifying columns
+- Grouping and aggregation
 - Handling missing values
 
-Code: [`pandas_basics.py`](./pandas_basics.py)
 
-##  Notes to Self
-- Decision Trees and Bagging gave a good intuition for why ensemble methods (like Random Forest) tend to perform better than a single model.
-- Pandas is going to be essential for every ML project going forward — comfortable with the basics now.
-- Next week: continue the ML playlist past Bagging (Boosting, maybe Random Forest in depth) and start applying Pandas to a real dataset.
+---
+
+# Code
+
+Implemented:
+
+- Pandas Series and DataFrames
+- Data selection and filtering
+- Data transformation
+- Groupby operations
+- Missing value handling
+
+
+File:
+
+`pandas_basics.py`
+
+
+---
+
+# Learning Outcome
+
+This week helped in understanding the foundation of Machine Learning algorithms and how data is prepared before training models.
+
+Pandas skills learned this week will be useful for future steps involving dataset analysis, preprocessing and model training.
+
+Next step:
+
+Moving towards deeper ML concepts and applying these techniques on datasets.
